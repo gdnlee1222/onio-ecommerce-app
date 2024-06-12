@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+.navbar-logo img {
+    height: 40px;
+    width: 100%;
+}
+  
+.navbar-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
+  
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+  
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+  
+.product-card .card-body {
+    padding: 15px;
+}
+  
+.product-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.product-card .card-price {
+    font-size: 16px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+  
+.product-card .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+.product-card .btn:hover {
+    background-color: #0056b3;
+}
+  

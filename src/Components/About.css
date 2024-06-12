@@ -1,0 +1,55 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-box {
+    background-color: #f9f9f9; 
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .about-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .about-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-box li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  
+  .about-container h1:hover,
+  .about-box h2:hover {
+    color: skyblue; 
+    font-size: 2.7rem; 
+    transition: color 0.3s ease, font-size 0.3s ease; 
+  }
+  

@@ -1,0 +1,109 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.3s ease; /* Transition for navbar properties */
+}
+
+.navbar-logo img {
+    width: 75px;
+}
+
+/* Navbar search styling */
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    transition: all 0.3s ease; /* Transition for search input */
+}
+
+.navbar-search button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transition for search button */
+}
+
+.navbar-search button:active {
+    transform: scale(0.95); /* Slightly scale down the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce the box shadow */
+}
+
+/* Nav links styling */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    transition: all 0.3s ease; /* Transition for nav links */
+    text-align: center;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: aqua;
+}
+
+.nav-links:active {
+    transform: scale(0.95); /* Slightly scale down the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce the box shadow */
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust based on navbar height */
+        left: 0;
+        width: 100%;
+        background-color: black;
+        padding: 10px 0;
+        gap: 10px;
+        z-index: 1;
+        transition: all 0.3s ease; /* Transition for nav links on small screens */
+}
+
+.nav-links.active {
+        display: flex;
+}
+
+.hamburger {
+        display: flex;
+        transition: all 0.3s ease; /* Transition for hamburger menu on small screens */
+}
+}

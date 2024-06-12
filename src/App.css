@@ -1,0 +1,122 @@
+/* App container */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    font-family: "Roboto", sans-serif;
+}
+  
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.navbar-logo img {
+    width: 75px;
+}
+  
+.navbar-links {
+    display: flex;
+}
+  
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+  
+.navbar-links a:hover {
+    color: aqua;
+}
+  
+/* Main content container */
+.content {
+    max-width: 1200px;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+  
+  /* Individual page styles (Shop, Cart, Wishlist, Item) */
+  /* Add styles as needed for each specific page */
+  
+  /* Shop page */
+.shop-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+  
+.shop-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.shop-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+  
+/* Cart page */
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+  
+.cart-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+/* Wishlist page */
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+  
+.wishlist-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 1rem;
+}
+  
+/* Item page */
+.item-details {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+  
+.item-image {
+    flex: 0 0 40%;
+    max-width: 300px;
+}
+  
+.item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+  
+.item-info {
+    flex: 1;
+    margin-left: 2rem;
+}

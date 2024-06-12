@@ -1,0 +1,40 @@
+.cart-container {
+    padding: 20px;
+}
+  
+.cart-header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.cart-items {
+    margin-bottom: 20px;
+    background-color: white;
+}
+  
+.cart-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.subtotal h4 {
+    margin: 0;
+}
+  
+.cart-buttons .custom-btn {
+    padding: 10px 10px;
+    margin: 0 5px;
+}
+
+.cart-buttons .custom-btn:hover{
+    background-color: aqua;
+}
+
+.cart-empty {
+    text-align: center;
+}
+
+
+  
